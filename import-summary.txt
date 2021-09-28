@@ -1,0 +1,98 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+ * C:\Users\Huxubo\Desktop\TEST20191112\gradlew:
+   Gradle wrapper script is not executable
+
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* JNISrc\
+* JNISrc\jni\
+* JNISrc\jni\Android.mk
+* JNISrc\jni\Application.mk
+* JNISrc\jni\getName.c
+* JNISrc\libs\
+* JNISrc\libs\armeabi-v7a\
+* JNISrc\libs\armeabi-v7a\libgetName.so
+* JNISrc\obj\
+* JNISrc\obj\local\
+* JNISrc\obj\local\armeabi-v7a\
+* JNISrc\obj\local\armeabi-v7a\libgetName.so
+* JNISrc\obj\local\armeabi-v7a\objs\
+* JNISrc\obj\local\armeabi-v7a\objs\getName\
+* JNISrc\obj\local\armeabi-v7a\objs\getName\getName.o
+* JNISrc\obj\local\armeabi-v7a\objs\getName\getName.o.d
+* ic_launcher-web.png
+* proguard\
+* proguard\dump.txt
+* proguard\mapping.txt
+* proguard\seeds.txt
+* proguard\usage.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:23.4.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* libs\armeabi-v7a\libforcetv.so => app\src\main\jniLibs\armeabi-v7a\libforcetv.so
+* libs\armeabi-v7a\libgetName.so => app\src\main\jniLibs\armeabi-v7a\libgetName.so
+* libs\armeabi-v7a\libijkffmpeg.so => app\src\main\jniLibs\armeabi-v7a\libijkffmpeg.so
+* libs\armeabi-v7a\libijkplayer.so => app\src\main\jniLibs\armeabi-v7a\libijkplayer.so
+* libs\armeabi-v7a\libijksdl.so => app\src\main\jniLibs\armeabi-v7a\libijksdl.so
+* libs\armeabi-v7a\libmitv.so => app\src\main\jniLibs\armeabi-v7a\libmitv.so
+* libs\armeabi-v7a\libmpc_jni.so => app\src\main\jniLibs\armeabi-v7a\libmpc_jni.so
+* libs\armeabi-v7a\libp2p.so => app\src\main\jniLibs\armeabi-v7a\libp2p.so
+* libs\armeabi-v7a\libp2pcore.so => app\src\main\jniLibs\armeabi-v7a\libp2pcore.so
+* libs\armeabi-v7a\libp2ptv.so => app\src\main\jniLibs\armeabi-v7a\libp2ptv.so
+* libs\armeabi-v7a\libp3p.so => app\src\main\jniLibs\armeabi-v7a\libp3p.so
+* libs\armeabi-v7a\libp4p.so => app\src\main\jniLibs\armeabi-v7a\libp4p.so
+* libs\armeabi-v7a\libp5p.so => app\src\main\jniLibs\armeabi-v7a\libp5p.so
+* libs\armeabi-v7a\libp6p.so => app\src\main\jniLibs\armeabi-v7a\libp6p.so
+* libs\armeabi-v7a\libp7p.so => app\src\main\jniLibs\armeabi-v7a\libp7p.so
+* libs\armeabi-v7a\libp8p.so => app\src\main\jniLibs\armeabi-v7a\libp8p.so
+* libs\armeabi-v7a\libp9p.so => app\src\main\jniLibs\armeabi-v7a\libp9p.so
+* libs\armeabi-v7a\libtvcore.so => app\src\main\jniLibs\armeabi-v7a\libtvcore.so
+* libs\armeabi-v7a\libvjplayer_jni.so => app\src\main\jniLibs\armeabi-v7a\libvjplayer_jni.so
+* libs\ijkplayer.jar => app\libs\ijkplayer.jar
+* libs\koushikdutta.jar => app\libs\koushikdutta.jar
+* libs\okhttp3.jar => app\libs\okhttp3.jar
+* libs\okio.jar => app\libs\okio.jar
+* libs\tvbus.jar => app\libs\tvbus.jar
+* lint.xml => app\lint.xml
+* proguard.cfg => app\proguard.cfg
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

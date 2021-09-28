@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="entrySummaries" format="reference" />
+
+   <declare-styleable name="SmoothProgressBar">
+        <attr name="spbStyle" format="reference"/>
+        <attr name="spb_color" format="color"/>
+        <attr name="spb_stroke_width" format="dimension"/>
+        <attr name="spb_stroke_separator_length" format="dimension"/>
+        <attr name="spb_sections_count" format="integer"/>
+        <attr name="spb_speed" format="float"/>
+        <attr name="spb_progressiveStart_speed" format="float"/>
+        <attr name="spb_progressiveStop_speed" format="float"/>
+        <attr name="spb_interpolator" format="enum">
+            <enum name="spb_interpolator_accelerate" value="0"/>
+            <enum name="spb_interpolator_linear" value="1"/>
+            <enum name="spb_interpolator_acceleratedecelerate" value="2"/>
+            <enum name="spb_interpolator_decelerate" value="3"/>
+        </attr>
+        <attr name="spb_reversed" format="boolean"/>
+        <attr name="spb_mirror_mode" format="boolean"/>
+        <attr name="spb_colors" format="reference"/>
+        <attr name="spb_progressiveStart_activated" format="boolean"/>
+        <attr name="spb_background" format="reference"/>
+        <attr name="spb_generate_background_with_colors" format="boolean"/>
+        <attr name="spb_gradients" format="boolean"/>
+	   <attr name="lottie_autoPlay" format="boolean" />
+	   <attr name="lottie_cacheStrategy">
+		   <enum name="none" value="0" />
+		   <enum name="strong" value="2" />
+		   <enum name="weak" value="1" />
+	   </attr>
+	   <attr name="lottie_colorFilter" format="color" />
+	   <attr name="lottie_enableMergePathsForKitKatAndAbove" format="boolean" />
+	   <attr name="lottie_fileName" format="string" />
+	   <attr name="lottie_imageAssetsFolder" format="string" />
+	   <attr name="lottie_loop" format="boolean" />
+	   <attr name="lottie_progress" format="float" />
+	   <attr name="lottie_rawRes" format="reference" />
+	   <attr name="lottie_repeatCount" format="integer" />
+	   <attr name="lottie_repeatMode">
+		   <enum name="restart" value="1" />
+		   <enum name="reverse" value="2" />
+	   </attr>
+	   <attr name="lottie_scale" format="float" />
+	   
+    </declare-styleable>
+    <declare-styleable name="IjkListPreference">
+        <attr name="entrySummaries" />
+    </declare-styleable>
+</resources>

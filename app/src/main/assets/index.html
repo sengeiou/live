@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+    <title>本地云平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="jquery.min.js">
+    </script>
+    <script src="bootstrap.min.js">
+    </script>
+    <style>
+        .container {
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+            width: 100vw !important;
+        }
+        textarea.form-control {
+            height: auto !important;
+            font-size: 1.6rem !important;
+            width: calc(100vw - 15px) !important;
+            margin: 5px !important;
+        }
+        .navbar-brand {
+            font-size: 2rem !important;
+            color: #333 !important;
+            font-weight: bold;
+            padding: 10px 0 !important;
+            line-height: 1.5 !important;
+        }
+        .input-group input{
+            height: 3.6rem !important;
+            font-size: 1.6rem !important;
+        }
+        .input-group .btn{
+            margin-left: 5px !important
+        }
+        .btn-group-sm>.btn, .btn-sm {
+            font-size: 1.6rem !important;
+            line-height: 1.5 !important;
+            height: 3.6rem !important;
+            border-radius: 0.3em !important;
+        }
+        .list-group-item {
+            height: 3.6rem !important;
+            line-height: 1 !important;
+            font-size: 1.6rem !important;
+            background-color: #ddd !important;
+            border-radius: 0.3em !important;
+            margin: 5px 5px 0 5px !important;
+            display: inline-flex;
+        }
+
+        .col-xs-9 .panel-heading {
+            padding: 0 !important;
+        }
+        .input-group-btn {
+            font-size: 1.3rem !important;
+        }
+
+        .panel-default>.panel-heading {
+            display: inline-flex !important;
+        }
+
+        .panel-heading {
+            padding: 5px 5px 0 5px !important;
+        }
+        .list-group {
+            display: inline !important;
+        }
+        .panel {
+            margin-bottom: 10px !important;
+        }
+        .navbar-toggle{
+            padding: 5px 10px !important;
+            margin-right: 0 !important;
+        }
+        .navbar {
+            position: relative;
+            min-height: 40px;
+            margin-bottom: 0;
+            border: none !important;
+            background-color: #fff !important;
+        }
+
+        .panel-default>.panel-heading {
+            color: #333;
+            background-color: #fff !important;
+            border: none !important;
+        }
+
+        .panel-default {
+            border: none !important;
+        }
+
+    </style>
+    <style media="screen and (min-width:768px)">
+        .navbar-toggle {
+            display: inherit !important;
+            margin-left: 20px !important;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div id='root'>
+    </div>
+</div>
+
+<div id="modal-info" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-body" id="modal-info-content"></div>
+            <div class="modal-footer">
+                <button class="sub-btn btn btn-default" id="info-modal-btn">确认</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="bundle.js"></script>
+</body>
+</html>
